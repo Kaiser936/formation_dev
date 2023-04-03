@@ -1,0 +1,72 @@
+/* reset css */
+
+
+/* mobile */
+body{
+    margin:0;
+    padding-top: 16rem;
+    background-color: rgb(148, 255, 159);
+    color: black;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    background-color: rgb(68, 149, 162);
+    width: 100%;
+    top: 0;
+}
+
+
+.parent{
+    margin: 0;
+    padding: 1rem;
+    list-style: none;
+}
+
+.parent li {
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* tablette */
+@media screen and (min-width: 576px) {
+    body{
+        background-color: rgb(148, 255, 159);
+        color: black;
+        padding-top: 4rem;
+    }
+    .navBar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(68, 149, 162);
+        position: fixed;
+        height: 60px;
+        width: 100%;
+    }
+    .parent {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+/* desktop */
+@media screen and (min-width: 1200px) {
+    body{
+        background-color:coral;
+    }
+}
+
+/* Test */
+.test{
+    border: 1px solid red
+}
